@@ -1,0 +1,20 @@
+﻿/*---------------------------------------------------------------------------------------------
+
+				Informações do código
+	
+							
+    - Trabalho desenvolvido no projeto de ensino: "Desenvolver matérias didático que 
+	  
+      estabelecem pontes conceituais entre as disciplinas de "Lógica para computação",
+	  
+      "Teoria da Computação" e "Compiladores".
+	
+    - Orientador: César Alberto Bravo Pariente
+	
+    - Autor: Ícaro Andrade Souza
+	
+    - Data: 20/05/2014
+	
+    - Email: ICARO-ANDRADE1@HOTMAIL.COM
+
+---------------------------------------------------------------------------------------------*/
