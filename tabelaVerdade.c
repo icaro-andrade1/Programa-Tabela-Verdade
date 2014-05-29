@@ -1,5 +1,26 @@
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+											     	tabelaVerdade.c
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
 #include "tabelaVerdade.h"
 
+/*-----------------------------------------------------------------------------------------------------------------------------------
+													Protótipos das Funções Internas
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+int montandoArvoreAux(char *arvore, char *formula, int raiz, int posF);
+void montandoArvore(char *arvore, char *formula);
+void montandoArvore(char *arvore, char *formula);
+char operacao(char op, char v1, char v2);
+int indiceTabela(char **tabVerdade, int c, char valor);
+char criandoColunaTabela(char **tabVerdade, int *c, int l, char op, char v1, char v2);
+void valorVerdadeSentenca(char **tabVerdade, int c, int l);
+int contemLetraNoVetor(char letras[],int qtdLetras, char letra);
+char **instanciandoTabelaVerdade(char **tabelaVerdade, int *c, int *l, char *formula);
+
+/*-----------------------------------------------------------------------------------------------------------------------------------
+															Funções
+-------------------------------------------------------------------------------------------------------------------------------------*/
 int montandoArvoreAux(char *arvore, char *formula, int raiz, int posF)
 {
 	int pos;
